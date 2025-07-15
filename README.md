@@ -1,6 +1,6 @@
 # 🎬 YouTube Video & Audio Downloader (Flask + SocketIO)
 
-Ein moderner YouTube-Downloader mit Live-Fortschrittsanzeige, Vorschaufunktion, stylischem Webinterface und einfacher Bedienung – entwickelt mit ❤️ in Python & Flask.
+Ein moderner YouTube-Downloader mit Vorschaufunktion, stylischem Webinterface und einfacher Bedienung – entwickelt mit ❤️ in Python & Flask.
 
 ---
 
@@ -9,11 +9,7 @@ Ein moderner YouTube-Downloader mit Live-Fortschrittsanzeige, Vorschaufunktion, 
 - 🔎 **Vorschau vor dem Download** (Titel, Thumbnail, Dauer, Kanal)
 - 🎥 **Video- und Audio-Download** (MP4 & MP3)
 - 📦 Playlist-Support (optional)
-- ⚡ **Live-Fortschrittsanzeige in %** (via Socket.IO)
-- 🎨 **Modernes UI** mit Ladeanimationen & responsive Design
 - 📁 Automatischer Dateiname + direkter Download-Link
-- 🌙 Light/Dark Theme (optional)
-- 🧠 Intelligente Qualitätserkennung & Formatwahl
 - ✅ Unterstützt auch YouTube Shorts, Musikvideos & Livestreams (sofern erlaubt)
 
 ---
