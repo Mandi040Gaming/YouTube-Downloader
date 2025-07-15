@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YouTube Downloader</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🔻 YouTube Downloader</h1>
+
+    <input type="text" id="url" placeholder="Füge deinen YouTube-Link ein..." />
+    <button onclick="fetchInfo()">🎬 Vorschau laden</button>
+
+    <div id="preview" class="hidden">
+      <img id="thumbnail" src="" alt="Thumbnail">
+      <div class="meta">
+        <h2 id="title"></h2>
+        <p id="channel"></p>
+        <p id="duration"></p>
+      </div>
+
+      <div class="controls">
+        <select id="format">
+          <option value="mp4">🎥 MP4 (Video)</option>
+          <option value="mp3">🎵 MP3 (Audio)</option>
+        </select>
+        <select id="quality">
+          <option value="best">Beste Qualität</option>
+          <option value="1080p">1080p</option>
+          <option value="720p">720p</option>
+        </select>
+        <label><input type="checkbox" id="playlist"> Ganze Playlist?</label>
+        <button onclick="startDownload()">⬇️ Download starten</button>
+      </div>
+    </div>
+
+    <div id="status"></div>
+    <div id="loader" class="hidden">⏳ Wird verarbeitet...</div>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
