@@ -16,7 +16,7 @@ Ein moderner YouTube-Downloader mit Vorschaufunktion, stylischem Webinterface un
 
 ## 🖼 Vorschau
 
-![screenshot](static/assets/screenshot.png)
+![screenshot](static/Asstes/screenshot.png)
 
 ---
 
