@@ -3,4 +3,3 @@ flask-cors
 flask-socketio
 eventlet
 yt-dlp
-gunicorn
